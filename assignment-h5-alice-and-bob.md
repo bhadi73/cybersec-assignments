@@ -96,43 +96,42 @@ b)1- One time setup\
 <img src="assets/assignment-h5-alice-and-bob/media/image1.png" width="602" />
 
 ## - Export My Public Key to share
-
 <img src="assets/assignment-h5-alice-and-bob/media/image2.png" width="602" />
 
-**- Adam User simulated in a different directory\**
+**- Adam User simulated in a different directory**
 <img src="assets/assignment-h5-alice-and-bob/media/image3.png" width="602" />
 
-**- Adam creating own keypair (basically the same steps as in I/ step )\**
+**-Adam creating own keypair (basically the same steps as in I/ step )**
 <img src="assets/assignment-h5-alice-and-bob/media/image4.png" width="602" />
 
 **- Adam Imports and Verifies Brahim's key**
-
 <img src="assets/assignment-h5-alice-and-bob/media/image5.png" width="602" />
 
-**- Showing the trust\**
+**- Showing the trust**
+
 <img src="assets/assignment-h5-alice-and-bob/media/image6.png" width="602" />**\
-- Adam exports the public key file and Brahim imports it:\**
+
+**- Adam exports the public key file and Brahim imports it:**
 <img src="assets/assignment-h5-alice-and-bob/media/image7.png" width="602" />
 
-**- Brahim signs the Key and the trust is established between Brahim and Adam:\**
+**- Brahim signs the Key and the trust is established between Brahim and Adam:**
 <img src="assets/assignment-h5-alice-and-bob/media/image8.png" width="602" />
 
-b)2- Adam creates a Secret Message to Brahim and signs it and encrypts it:**\**
+**b)2- Adam creates a Secret Message to Brahim and signs it and encrypts it:**
 <img src="assets/assignment-h5-alice-and-bob/media/image9.png" width="602" />
 
 <img src="assets/assignment-h5-alice-and-bob/media/image10.png" width="602" />
 
-- **\
-  Simulate the transfer by copying the encrypted file to Brahim directory:\**
+ **- Simulate the transfer by copying the encrypted file to Brahim directory:**
   <img src="assets/assignment-h5-alice-and-bob/media/image11.png" width="602" />
 
 > **- Brahim Decrypts and Verifies the Message**
 >
-> **gpg: decrypt_message failed: unknown system error**
+> **gpg: decrypt_message failed: unknown system error** ❗❗❗
 >
 > <img src="assets/assignment-h5-alice-and-bob/media/image12.png" width="602" />
 >
-> Running the command: ***killall gpg-agent*** did not help.\
+> => Running the command: ***killall gpg-agent*** did not help.\
 > Most probably something went wrong during secret message encryption. So I will redo the steps from message encryption again and see if it will solve the issue.
 >
 > <img src="assets/assignment-h5-alice-and-bob/media/image13.png" width="602" />
@@ -147,7 +146,7 @@ b)2- Adam creates a Secret Message to Brahim and signs it and encrypts it:**\**
 >
 > gpg: Good signature from "Adam \<adma@test123.ts.invalid\>" \[full\]
 
-c\) Typical KeePassXC setup\
+**c\) Typical KeePassXC setup**
 Here is a Ttypical KeePassXC setup and how I am using it daily:
 
 **1. Create the database. Done it only once.**
